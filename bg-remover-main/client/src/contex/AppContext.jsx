@@ -18,6 +18,9 @@ const AppContextProvider = (props) => {
   const { isSignedIn } = useUser();
   const { openSignIn } = useClerk();
 
+
+ 
+
   const loadCreditsData = async () => {
     try {
       const token = await getToken();
