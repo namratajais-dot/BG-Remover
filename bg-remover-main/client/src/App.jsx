@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
-    <div className='min-h-screen bg-slate-50'>
+    <div className='min-h-screen bg-[#2f2f2f]'>
       <ToastContainer position='bottom-right'/>
       <Navbar />
       
